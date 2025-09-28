@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K&K Handlekurv</title>
+    <link rel="icon" href="images/chicken-icon.jpg" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+    ></script>
+    <script type="module" src="scripts/side2.js"></script>
+  </head>
+
+  <body class="cart-page">
+    <header class="header">
+      <a class="header__title" href="side1.html"
+        ><i class="fa-solid fa-drumstick-bite fa-flip"></i> K&K Kylling og
+        Kjøtt</a
+      >
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="side1.html">Hjem</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="side2.html"
+              >Handlekurv
+              <span id="cart-count"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cart-container">
+      <section id="cart-product-section" class="cart__products"></section>
+      <section id="summary-section" class="cart__summary"></section>
+    </div>
+
+    <footer>© Made by Poi Juchai 2025</footer>
+  </body>
+</html>
